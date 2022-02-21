@@ -1,0 +1,77 @@
+PODS:
+  - Alamofire (5.4.0)
+  - MaterialComponents/ActivityIndicator (119.3.0):
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Application
+    - MDFInternationalization
+    - MotionAnimator (~> 2.0)
+  - MaterialComponents/Palettes (119.3.0)
+  - MaterialComponents/private/Application (119.3.0)
+  - MDFInternationalization (2.0.0)
+  - MotionAnimator (2.8.1):
+    - MotionInterchange (~> 1.6)
+  - MotionInterchange (1.6.0)
+  - MQTTClient (0.15.3):
+    - MQTTClient/Core (= 0.15.3)
+  - MQTTClient/Core (0.15.3):
+    - MQTTClient/Manager
+    - MQTTClient/Min
+  - MQTTClient/Manager (0.15.3):
+    - MQTTClient/Min
+  - MQTTClient/Min (0.15.3)
+  - ReachabilitySwift (5.0.0)
+  - SDWebImage (5.6.1):
+    - SDWebImage/Core (= 5.6.1)
+  - SDWebImage/Core (5.6.1)
+  - SkeletonView (1.21.2)
+  - SwiftGifOrigin (1.7.0)
+  - TagListView (1.4.1)
+  - Toast-Swift (5.0.1)
+  - TTTAttributedLabel (2.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - MaterialComponents/ActivityIndicator
+  - MQTTClient
+  - ReachabilitySwift
+  - SDWebImage (~> 5.6.1)
+  - SkeletonView
+  - SwiftGifOrigin (~> 1.7.0)
+  - TagListView
+  - Toast-Swift
+  - TTTAttributedLabel
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - MaterialComponents
+    - MDFInternationalization
+    - MotionAnimator
+    - MotionInterchange
+    - MQTTClient
+    - ReachabilitySwift
+    - SDWebImage
+    - SkeletonView
+    - SwiftGifOrigin
+    - TagListView
+    - Toast-Swift
+    - TTTAttributedLabel
+
+SPEC CHECKSUMS:
+  Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+  MaterialComponents: 49658f0fd7ef6e098e9943fce3f293e700595570
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MotionAnimator: ee16aa30567c5bae0fb2750c132915829cfaaf8a
+  MotionInterchange: ead0e3ae1f3a5fb539e289debbc7ae036160a10d
+  MQTTClient: 0dfa04e789479c2e461786464969895c1fcb0875
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SDWebImage: 7edb9c3ea661e77a66661f7f044de8c1b55d1120
+  SkeletonView: a085533443fed0198309f1979780afb6e80eaedd
+  SwiftGifOrigin: fbd6cf37afcfcf97a5c3db996ddc0492e5c5c145
+  TagListView: a1c236d17960a0cf64156725a76ce6d73ebce2be
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+
+PODFILE CHECKSUM: 3783ca03a5a67b83778c19b525d526318e717a1d
+
+COCOAPODS: 1.11.2

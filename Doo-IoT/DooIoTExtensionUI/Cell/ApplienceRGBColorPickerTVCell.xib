@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ApplienceRGBColorPickerTVCell" id="HZl-rK-vf3" userLabel="ApplienceRGBColorPickerTVCell" customClass="ApplienceRGBColorPickerTVCell" customModule="DooIotExtensionUI" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="502"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HZl-rK-vf3" id="AvB-pr-aj3">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="502"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="eio-bT-tIM">
+                        <rect key="frame" x="16" y="15" width="288" height="472"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="p5r-Lg-Z0b">
+                                <rect key="frame" x="0.0" y="0.0" width="288" height="256"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hMJ-jJ-QMG" customClass="SwiftHSVColorPicker" customModule="DooIotExtensionUI" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="288" height="256"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="256" id="jMQ-cY-mtX"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="N2K-KR-Mzn">
+                                <rect key="frame" x="0.0" y="276" width="288" height="196"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1AZ-Ms-ThS">
+                                        <rect key="frame" x="0.0" y="0.0" width="140" height="196"/>
+                                        <color key="backgroundColor" red="0.98688808760000002" green="1" blue="0.39970478100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.94901960780000005" green="0.96470588239999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <inset key="contentEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="10"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWu-4y-f8m">
+                                        <rect key="frame" x="148" y="0.0" width="140" height="196"/>
+                                        <color key="backgroundColor" red="0.98688808760000002" green="1" blue="0.39970478100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.94901960780000005" green="0.96470588239999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" systemColor="systemTealColor"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="eio-bT-tIM" secondAttribute="bottom" constant="15" id="6I7-Y2-3Ga"/>
+                    <constraint firstItem="eio-bT-tIM" firstAttribute="width" secondItem="AvB-pr-aj3" secondAttribute="width" constant="-32" id="Dn7-zF-1Ka"/>
+                    <constraint firstItem="eio-bT-tIM" firstAttribute="top" secondItem="AvB-pr-aj3" secondAttribute="top" constant="15" id="eaj-kH-13i"/>
+                    <constraint firstItem="eio-bT-tIM" firstAttribute="leading" secondItem="AvB-pr-aj3" secondAttribute="leading" constant="16" id="h0P-eg-QjE"/>
+                    <constraint firstAttribute="trailing" secondItem="eio-bT-tIM" secondAttribute="trailing" constant="16" id="sq2-kD-C9u"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="ocj-sh-ltV"/>
+            <connections>
+                <outlet property="buttonCancel" destination="eWu-4y-f8m" id="2DG-JG-Kq9"/>
+                <outlet property="buttonSave" destination="1AZ-Ms-ThS" id="80x-Qp-fTB"/>
+                <outlet property="colorPicker" destination="hMJ-jJ-QMG" id="qyE-c7-qnM"/>
+            </connections>
+            <point key="canvasLocation" x="169.56521739130437" y="960.9375"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

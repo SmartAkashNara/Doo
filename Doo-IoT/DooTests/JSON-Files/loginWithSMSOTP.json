@@ -1,0 +1,7 @@
+{
+  "status" : 200,
+  "payload" : {
+    "refreshToken" : "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxOSIsInNjb3BlIjoiUkVGUkVTSF9UT0tFTiIsInNlc3Npb25JZCI6IlhHVGxCMDFCaW1iUWo4TDZRRGZKdXAzcEp1VWkzbjZLIiwiZXhwIjoxNTg3Mzk2NTc0LCJpYXQiOjE1ODczOTIwNzR9.RgIbEYqpG6_uA_nmis2ZbnQfVm1nHH0Deq73Ofl8FwjgVsYFCjnhW8uOZbzjCpj4-8Lxn4q5xmKSoYHt5NLtHg",
+    "accessToken" : "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxOSIsInNlc3Npb25JZCI6IlhHVGxCMDFCaW1iUWo4TDZRRGZKdXAzcEp1VWkzbjZLIiwiaWF0IjoxNTg3MzkyMDc0fQ.dAynbpABbX3PpgT4Y5tWVUhhnRlvUCnvGdnLx2bdW8I_IhThZchRCjBVUBvZsPaKPJXLDnj4HgWFOt6umph29g"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "payload" : {
+    "verificationToken" : "eyJhbGciOiJIUzUxMiJ9.eyJzY29wZSI6InZlcmlmeS1tb2JpbGUiLCJzdWIiOiIxMDAjMzM1NTY2NDQ1NSIsImlhdCI6MTU4NzM3NTE0NywiZXhwIjoxNTg3MzgxMTQ3fQ.8mT64ChFAbnp2Eqd2CkxcfowOwORiX4zX4oV-t4qs013JgKMIPhckYakiWqtAlPM4qjvOPCGg2GrCqj1NpwMkA",
+    "timeout" : 100,
+    "mobile" : "3355664455"
+  },
+  "status" : 200
+}

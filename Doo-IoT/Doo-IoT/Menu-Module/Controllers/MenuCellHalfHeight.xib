@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MenuCellHalfHeight" id="wS3-W4-LVH" customClass="MenuCellHalfHeight" customModule="Doo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="167" height="171"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="c0J-bw-v4M">
+                <rect key="frame" x="0.0" y="0.0" width="167" height="171"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EAx-wI-knG" customClass="UIControl">
+                        <rect key="frame" x="0.0" y="0.0" width="167" height="106"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HXP-l0-A1C">
+                                <rect key="frame" x="16" y="60" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="iEt-hx-Fob"/>
+                                    <constraint firstAttribute="width" constant="30" id="l3s-Q5-wFN"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Master Bed Fan" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bcz-Bb-Cw3">
+                                <rect key="frame" x="56" y="54" width="101" height="42"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="foc-M0-aaW"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="foc-M0-aaW" firstAttribute="bottom" secondItem="bcz-Bb-Cw3" secondAttribute="bottom" constant="10" id="3NM-tF-PWb"/>
+                            <constraint firstItem="bcz-Bb-Cw3" firstAttribute="leading" secondItem="HXP-l0-A1C" secondAttribute="trailing" constant="10" id="4iW-h3-AS1"/>
+                            <constraint firstItem="HXP-l0-A1C" firstAttribute="leading" secondItem="EAx-wI-knG" secondAttribute="leading" constant="16" id="Ia6-Im-hbD"/>
+                            <constraint firstAttribute="trailing" secondItem="bcz-Bb-Cw3" secondAttribute="trailing" constant="10" id="VoP-1w-4Ew"/>
+                            <constraint firstItem="HXP-l0-A1C" firstAttribute="centerY" secondItem="foc-M0-aaW" secondAttribute="centerY" id="qcU-Zv-bLz"/>
+                            <constraint firstItem="bcz-Bb-Cw3" firstAttribute="centerY" secondItem="HXP-l0-A1C" secondAttribute="centerY" id="v2U-tA-PXT"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mil-hg-a2k">
+                        <rect key="frame" x="0.0" y="116" width="167" height="55"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Master Bed Fan" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i3d-uh-IWk">
+                                <rect key="frame" x="56" y="10" width="101" height="35"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cSR-85-MBL">
+                                <rect key="frame" x="16" y="12.5" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="H0n-mo-9CC"/>
+                                    <constraint firstAttribute="width" constant="30" id="Pfu-c2-WQ7"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9sD-nB-0cr"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="i3d-uh-IWk" firstAttribute="centerY" secondItem="cSR-85-MBL" secondAttribute="centerY" id="G44-nh-nd0"/>
+                            <constraint firstItem="cSR-85-MBL" firstAttribute="centerY" secondItem="9sD-nB-0cr" secondAttribute="centerY" id="LhU-Fh-DEx"/>
+                            <constraint firstItem="cSR-85-MBL" firstAttribute="leading" secondItem="mil-hg-a2k" secondAttribute="leading" constant="16" id="hzH-h8-eN7"/>
+                            <constraint firstAttribute="height" constant="55" id="npw-2F-RgV"/>
+                            <constraint firstAttribute="trailing" secondItem="i3d-uh-IWk" secondAttribute="trailing" constant="10" id="owc-at-eXP"/>
+                            <constraint firstItem="i3d-uh-IWk" firstAttribute="leading" secondItem="cSR-85-MBL" secondAttribute="trailing" constant="10" id="rDN-5n-xEO"/>
+                            <constraint firstAttribute="bottom" secondItem="i3d-uh-IWk" secondAttribute="bottom" constant="10" id="rEw-dv-x9o"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="EAx-wI-knG" secondAttribute="trailing" id="0hv-fS-InD"/>
+                    <constraint firstItem="EAx-wI-knG" firstAttribute="leading" secondItem="c0J-bw-v4M" secondAttribute="leading" id="eMi-ZY-Fkp"/>
+                    <constraint firstItem="EAx-wI-knG" firstAttribute="top" secondItem="c0J-bw-v4M" secondAttribute="top" id="g73-UE-qtJ"/>
+                    <constraint firstItem="mil-hg-a2k" firstAttribute="leading" secondItem="c0J-bw-v4M" secondAttribute="leading" id="mOR-G0-XbX"/>
+                    <constraint firstAttribute="bottom" secondItem="mil-hg-a2k" secondAttribute="bottom" id="nAh-nN-LqP"/>
+                    <constraint firstItem="mil-hg-a2k" firstAttribute="top" secondItem="EAx-wI-knG" secondAttribute="bottom" constant="10" id="o80-AO-lOF"/>
+                    <constraint firstAttribute="trailing" secondItem="mil-hg-a2k" secondAttribute="trailing" id="obr-XD-Tqj"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="167" height="200"/>
+            <connections>
+                <outlet property="imageMenuIcon1" destination="HXP-l0-A1C" id="6hO-vt-o1k"/>
+                <outlet property="imageMenuIcon2" destination="cSR-85-MBL" id="CkL-lJ-nQY"/>
+                <outlet property="labelMenuName1" destination="bcz-Bb-Cw3" id="w6F-pX-f6M"/>
+                <outlet property="labelMenuName2" destination="i3d-uh-IWk" id="Rfp-7E-kJW"/>
+                <outlet property="viewCard1" destination="EAx-wI-knG" id="5cS-Ay-fVT"/>
+                <outlet property="viewCard2" destination="mil-hg-a2k" id="0mM-as-NmY"/>
+            </connections>
+            <point key="canvasLocation" x="258.69565217391306" y="159.04017857142856"/>
+        </collectionViewCell>
+    </objects>
+</document>

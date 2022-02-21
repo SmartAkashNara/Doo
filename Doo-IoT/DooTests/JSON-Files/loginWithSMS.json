@@ -1,0 +1,9 @@
+{
+  "payload" : {
+    "verificationToken" : "eyJhbGciOiJIUzUxMiJ9.eyJzY29wZSI6ImxvZ2luLW90cCIsInN1YiI6IjIwIiwiaWF0IjoxNTg3MzkyMzgyLCJleHAiOjE1ODczOTQxODJ9.ni9-HuA7TNv7KhtYtVOUsxQWMjEpTo6pPsxEUr1wLjjgj6zB9W5qBA0dyoq1PKk1AKtLJQ5Snfgp_NfmIpM4yA",
+    "mobile" : "9558032110",
+    "timeout" : 15,
+    "countryId" : 100
+  },
+  "status" : 200
+}
