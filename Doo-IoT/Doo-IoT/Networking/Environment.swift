@@ -48,7 +48,8 @@ class Environment {
             case .developement:
             
                 return "http://doo-api-dev.smartsensesolutions.com:30017/"
-            case .staging:  
+            case .staging:
+            
                 return "https://test-eapi.thedoo.io/"
             case .demo:
                 return "https://demo-api.certif-id.com/"
