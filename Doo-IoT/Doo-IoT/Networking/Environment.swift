@@ -46,6 +46,7 @@ class Environment {
         */
         switch self.server {
             case .developement:
+            
                 return "http://doo-api-dev.smartsensesolutions.com:30017/"
             case .staging:  
                 return "https://test-eapi.thedoo.io/"
