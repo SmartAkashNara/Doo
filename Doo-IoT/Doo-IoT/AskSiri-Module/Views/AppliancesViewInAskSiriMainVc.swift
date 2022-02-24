@@ -521,6 +521,7 @@ extension AppliancesViewInAskSiriMainVc: UITableViewDataSource {
         }
         
         
+        
         return .unknown
     }
     
