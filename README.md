@@ -1,2 +1,2 @@
-# Doo-IOT-Test-Jenking
+# Doo
 This is for testing purpose
