@@ -58,7 +58,7 @@ class Environment {
     }
     
     
-    
+//"http://16c6-203-129-213-178.ngrok.io/job/Doo/buildWithParameters?token=glpat-XnfaVQiN5Le87F6gkqwp"
     
     class func GoogleSignInAuthKey() -> String {
         switch self.server {
