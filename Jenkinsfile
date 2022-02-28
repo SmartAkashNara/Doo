@@ -3,17 +3,17 @@
     stages {
         stage('Build') { 
             steps {
-                echo 'building application....' 
+                echo "building application...." 
             }
         }
         stage('Test') { 
             steps {
-                echo 'building Test application....' 
+                echo "building application...." 
             }
         }
         stage('Deploy') { 
             steps {
-                echo 'building Deploy application....' 
+                echo "building application...." 
             }
         }
     }
