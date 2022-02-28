@@ -523,6 +523,9 @@ extension AppliancesViewInAskSiriMainVc: UITableViewDataSource {
     }
     
     
+    
+    
+    
     func presentVoiceShortcutVcForBasic(action: EnumApplianceAction, intent: ApplianceActionsBasicIntent, objectApplianceDetails: TargetApplianceDataModel) {
         self.checkForVoiceShortcutsBasics(completion: {
             print(self.voiceShortcutsBasic)
