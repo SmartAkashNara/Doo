@@ -66,6 +66,7 @@
 		38EB509526BCF5B400FA1A76 /* GroupsMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EB509426BCF5B400FA1A76 /* GroupsMainViewController.swift */; };
 		38EB50A526BD16C000FA1A76 /* AddPaginationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EB50A326BD16C000FA1A76 /* AddPaginationProtocol.swift */; };
 		38EB50A626BD16C000FA1A76 /* SayNoForDataTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EB50A426BD16C000FA1A76 /* SayNoForDataTableView.swift */; };
+		38F2420827CC939D00637057 /* NewFileForJenking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2420727CC939D00637057 /* NewFileForJenking.swift */; };
 		460113EA2452AF1000D9ABE1 /* DooNoDataView-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460113E92452AF1000D9ABE1 /* DooNoDataView-1.swift */; };
 		460113EE2452B8E600D9ABE1 /* AddEnterpriseOutletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460113ED2452B8E600D9ABE1 /* AddEnterpriseOutletView.swift */; };
 		460113F02452B94800D9ABE1 /* AddEnterpriseOutletView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 460113EF2452B94800D9ABE1 /* AddEnterpriseOutletView.xib */; };
@@ -564,6 +565,7 @@
 		38EB509426BCF5B400FA1A76 /* GroupsMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsMainViewController.swift; sourceTree = "<group>"; };
 		38EB50A326BD16C000FA1A76 /* AddPaginationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPaginationProtocol.swift; sourceTree = "<group>"; };
 		38EB50A426BD16C000FA1A76 /* SayNoForDataTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SayNoForDataTableView.swift; sourceTree = "<group>"; };
+		38F2420727CC939D00637057 /* NewFileForJenking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFileForJenking.swift; sourceTree = "<group>"; };
 		460113E92452AF1000D9ABE1 /* DooNoDataView-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DooNoDataView-1.swift"; sourceTree = "<group>"; };
 		460113ED2452B8E600D9ABE1 /* AddEnterpriseOutletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEnterpriseOutletView.swift; sourceTree = "<group>"; };
 		460113EF2452B94800D9ABE1 /* AddEnterpriseOutletView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddEnterpriseOutletView.xib; sourceTree = "<group>"; };
@@ -1047,6 +1049,7 @@
 				3872661727A3DED900B497AB /* LinkWithAlexaViewController.swift */,
 				38D06DF627A412180022C2C0 /* SignInWithAlexaAmazonViewController.swift */,
 				38A7F52227A7BD7C00423250 /* LinkWithAlexaViewModel.swift */,
+				38F2420727CC939D00637057 /* NewFileForJenking.swift */,
 			);
 			path = "Alexa-Module";
 			sourceTree = "<group>";
@@ -3059,6 +3062,7 @@
 				46AF4BC92441D2C800F7DC9B /* JSONhelperClasses.swift in Sources */,
 				9FC7C0FB26C6620400F9404B /* DeviceUtilities.swift in Sources */,
 				8827507026D3B35000688E96 /* NSURLSession+Multipart.swift in Sources */,
+				38F2420827CC939D00637057 /* NewFileForJenking.swift in Sources */,
 				467CAB64243DF26B00D9C597 /* DispatchQueue+Extensions.swift in Sources */,
 				F59218A8243B5F9600EA2247 /* EnterpriseUsersViewModel.swift in Sources */,
 				F5875CD925B9A94A00C94EF9 /* AddEditSchedulerViewController.swift in Sources */,
