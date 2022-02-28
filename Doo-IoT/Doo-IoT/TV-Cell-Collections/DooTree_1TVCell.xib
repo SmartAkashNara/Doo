@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="82" id="KGk-i7-Jjw" customClass="DooTree_1TVCell" customModule="Doo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="82"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="82"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w5t-ib-mO1">
+                        <rect key="frame" x="0.0" y="0.0" width="308" height="48"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="253" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zh0-IW-Nuu" customClass="ButtonOfInfinityTree" customModule="Doo" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="53" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="1CH-Ej-jm4"/>
+                                    <constraint firstAttribute="width" constant="53" id="zSE-ht-QMB"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="16" maxY="0.0"/>
+                                <state key="normal" image="marked_1"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="Label asdfasdf dsaf adsfsda dsa fdasfdsa sadfdsaf" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ufl-Fs-oGh">
+                                <rect key="frame" x="53" y="0.0" width="225" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="graydownarrow" translatesAutoresizingMaskIntoConstraints="NO" id="RzP-m2-Ppz">
+                                <rect key="frame" x="278" y="0.0" width="30" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="sN8-qa-Zhp"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RH2-Zb-bAZ" userLabel="Separator">
+                        <rect key="frame" x="20" y="81.5" width="300" height="0.5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="UoM-oc-xS4"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="w5t-ib-mO1" secondAttribute="trailing" constant="12" id="00G-VU-7Dj"/>
+                    <constraint firstAttribute="bottom" secondItem="RH2-Zb-bAZ" secondAttribute="bottom" id="6mg-Ko-qsa"/>
+                    <constraint firstItem="w5t-ib-mO1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="DLh-6c-wzJ"/>
+                    <constraint firstItem="RH2-Zb-bAZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="EoV-Lt-gb8"/>
+                    <constraint firstItem="w5t-ib-mO1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="UTH-vs-qf1"/>
+                    <constraint firstAttribute="trailing" secondItem="RH2-Zb-bAZ" secondAttribute="trailing" id="YAJ-Jn-z5h"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="buttonCheckmark" destination="zh0-IW-Nuu" id="dOw-4b-V7F"/>
+                <outlet property="dropdownArrowView" destination="RzP-m2-Ppz" id="Clt-Qg-ErT"/>
+                <outlet property="labelTitle" destination="Ufl-Fs-oGh" id="KfY-a8-xEJ"/>
+                <outlet property="leftConstraintToContent" destination="DLh-6c-wzJ" id="wS8-c0-WZf"/>
+                <outlet property="viewSeparator" destination="RH2-Zb-bAZ" id="11R-x6-2nb"/>
+            </connections>
+            <point key="canvasLocation" x="-177" y="9"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="graydownarrow" width="11.5" height="7"/>
+        <image name="marked_1" width="17" height="17"/>
+    </resources>
+</document>

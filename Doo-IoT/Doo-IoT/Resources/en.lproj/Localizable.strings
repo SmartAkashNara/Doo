@@ -1,0 +1,453 @@
+/* 
+  Localizable.strings
+  Doo-IoT
+
+  Created by Kiran Jasvanee on 20/03/20.
+  Copyright © 2020 SmartSense. All rights reserved.
+*/
+
+//Buttons
+"back_button" = "Back";
+"cancel_button" = "Cancel";
+"delete_button" = "Delete";
+"remove_button" = "Remove";
+"save_button" = "Save";
+"submit_button" = "Submit";
+"update_button" = "Update";
+"ok_button" = "Ok";
+"done_button" = "Done";
+"yes_button" = "Yes";
+"resend_button" = "Resend";
+"settings_button" = "Settings";
+"next_button" = "Next";
+"rescan_button" = "Rescan";
+
+"accept_button" = "Accept";
+"reject_button" = "Reject";
+"signup_button" = "Sign Up";
+"login_button" = "Login";
+"add_to_list_button" = "Add to list";
+"send_invitations_button" = "Send Invitations";
+"assign_privileges_button" = "Assign privileges";
+"sendingDotted" = "Sending...";
+
+//Validation messages
+"email_is_required" = "Email is required";
+"email_length_6_to_50" = "Email length should be between 6 to 50 characters";
+"plz_valid_email" = "Please enter a valid email address";
+"plz_agree_terms_condition" = "Please agree with the terms and condition";
+"country_code_is_required" = "Country code is required";
+"mobile_number_is_required" = "Mobile number is required";
+"mobile_number_4_to_13" = "Mobile number length should be between 4 to 13 characters";
+"plz_valid_mobile_number" = "Please enter a valid mobile number";
+"old_and_new_password_doesnot_match" = "Old and new password doesn't match";
+"mobile_number_or_email_is_required" = "Mobile Number/Email is required";
+"password_is_required" = "Password is required";
+"plz_valid_password" = "Please enter a valid password";
+"enterprise_type_is_required" = "Enterpries Type is required";
+"enterprise_name_is_required" = "Enterprise name is required";
+"enterprise_name_2_to_40" = "Enterprise name length should be between 2 to 40 characters";
+"plz_valid_enterprise_name" = "Please enter a valid enterprise name";
+"location_is_required" = "Location is required";
+"role_is_required" = "Role is required";
+"are_you_sure_you_want_to_delete" = "Are you sure you want to delete?";
+"something_went_wrong_plz_try" = "Something went wrong, please try again after sometime!";
+"something_went_wrong" = "Something went wrong!";
+"camera_access_denided" = "Doo does not have access to your Camera. To enable access, tap settings and turn on Camera.";
+"photos_access_denided" = "Doo does not have access to your Photos. To enable access, tap settings and turn on Photos.";
+"turn_on_photo_services_to_allow_select_picture_or_video_or_audio" = "Turn On Photo services to allow select picture or video or audio";
+"turn_on_photo_services_to_allow_capture_picture" = "Turn On Camera services to allow capture picture";
+"the_image_may_not_be_greater_than_" = "The image may not be greater than";
+"serial_number_is_required" = "Serial Number is required";
+
+
+"first_name_is_required" = "First name is required";
+"first_name_2_to_40" = "First name length should be between 2 to 40 characters";
+"plz_valid_first_name" = "Please enter a valid first name";
+"last_name_is_required" = "Last name is required";
+"last_name_2_to_40" = "Last name length should be between 2 to 40 characters";
+"plz_valid_last_name" = "Please enter a valid last name";
+
+"device_name_is_required" = "Device name is required";
+"plz_valid_device_name" = "Please enter a valid device name";
+"device_name_2_to_40" = "Device name length should be between 2 to 40 characters";
+"device_type_is_required" = "Device type is required";
+"location_is_required" = "Location is required";
+"gateway_is_required" = "Gateway is required";
+
+"appliance_name_is_required" = "Appliance name is required";
+"plz_valid_appliance_name" = "Please enter a valid appliance name";
+"appliance_name_2_to_40" = "Appliance name length should be between 2 to 40 characters";
+
+"appliance_type_is_required" = "Appliance type is required";
+
+"appliance_enabled" = "appliance enabled";
+"appliance_disabled" = "appliance disabled";
+
+"alert" = "Alert";
+"doo" = "DOO";
+"smart_home" = "smart home";
+"intro_subtitle" = "Lets get started building your";
+"existing_user_question_mark" = "existing user ?";
+
+"resend_in" = "Resend in";
+
+"otp" = "OTP";
+"enter_the_email_otp_pretext" = "Enter the OTP we just sent you on your email";
+"enter_the_mobile_otp_pretext" = "Enter the OTP we just sent you on your mobile number";
+
+"email_address_question_mark" = "email address?";
+"sign_with_email_subtitle" = "Let's get to know you better. What is your email address?";
+"email_placeholder" = "Email";
+"signup_with_mobile_number" = "Signup with Mobile Number.";
+"mobile_number_link" = "Mobile Number.";
+"i_agree_user_agreement_and_privacy_policy" = "I Agree Terms & Conditions and Privacy Policy";
+"user_agreement_link" = "Terms & Conditions";
+"privacy_policy_link" = "Privacy Policy";
+"mobile_number_link" = "Mobile Number.";
+
+"mobile_number_question_mark" = "mobile number?";
+"sign_with_mobile_number_subtitle" = "Let's get to know you better. What is your mobile number?";
+"country_placeholder" = "Country";
+"mobile_no_placeholder" = "Mobile No";
+"email_address_link" = "Email Address";
+"signup_with_email_address" = "Signup with Email Address";
+
+"create_password_subtitle" = "Let's create your password for account protection";
+"forgot_reset_password_subtitle" = "Let's reset your password for account protection";
+"change_password_subtitle" = "Let's change your password for account protection";
+"password_subtitle_bold" = "password";
+"old_password_placeholder" = "Old Password";
+"new_password_placeholder" = "New Password";
+"password_placeholder" = "Password";
+"password_reset_successfully" = "Password Reset Successfully!";
+
+"include_1_upper_case_letter" = "include 1 upper case letter";
+"include_1_lowercase_letter" = "include 1 lowercase letter";
+"include_1_numeric_letter" = "include 1 numeric letter";
+"1_special_character" = "1 special character";
+"8_characters_or_more" = "8 characters or more";
+
+"for_authorisation" = "For Authorisation";
+"login_subtitle" = "Please fill in the form For Authorisation";
+"email_or_mobile_placeholder" = "Email or mobile";
+"forgot_password_question_mark" = "Forgot Password?";
+
+"sms_question_mark" = "SMS?";
+"login_via_sms_question_mark" = "Login via SMS?";
+
+"mobile_number" = "mobile number";
+"login_via_sms_subtitle" = "Enter your mobile number to get OTP via sms";
+
+"email" = "email";
+"forgot_password_subtitle" = "Don't worry, enter your email or mobile number and we'll help you out";
+
+"search_country_placeholder" = "Search country";
+
+"type_of_enterprise" = "Type of enterprise";
+"type_of_enterprise_subtitle" = "Select an option that matches your premises the most";
+"gateway_list_popup_title" = "Select gateway";
+"gateway_list_popup_subtitle" = "Here you can select name of gateway";
+"appliance_type_list_popup_title" = "Select appliance type";
+"appliance_type_list_popup_subtitle" = "Here you can select appliance type";
+"search_placeholder" = "Search";
+"more" = "More";
+"less" = "Less";
+"favourite_devices" = "Favourite devices";
+"favourite_scenes" = "Favourite scenes";
+"execute" = "Execute";
+"devices" = "devices";
+"devices_active" = "devices active";
+"device_active" = "device active";
+"gateway_status" = "Gateway status";
+"offline" = "Offline";
+"online" = "Online";
+"hey" = "Hey";
+"your_favourites" = "YOUR FAVOURITES";
+"favourites_senses" = "SCENES";
+"arrange_home_layout" = "Arrange Home Layout";
+"scenes" = "Scenes";
+"menu_tab" = "Menu";
+"home_tab" = "Home";
+"groups_tab" = "Groups";
+"smart_tab" = "Smart";
+"admin_role" = "Admin";
+"user_role" = "User";
+"invited" = "Invited";
+"enterprises" = "Enterprises";
+"enterprise_top_menu_subtitle" = "You can change your enterprise from here";
+
+"your_enterprises_title" = "Your Enterprises";
+"your_enterprises_subtitle" = "You can manage your enterprises from here";
+"current_selected" = "Current Selected";
+"other_enterprises" = "Other Enterprises";
+"note_title" = "Note:";
+"note_detail_group" = "Tap on the group to remove it from selection";
+"note_detail_user" = "Tap on the user to remove from selection";
+"selected_groups" = "Selected Groups";
+"group_sufix" = "group";
+"groups_sufix" = "groups";
+
+"add_enterprise_title" = "Add Enterprise";
+"edit_enterprise_title" = "Edit Enterprise";
+"add_enterprise_subtitle" = "Lorem Ipsum is simply typesetting industry";
+"type" = "Type";
+"select_type_of_enterprise" = "Select type of enterprise";
+"name" = "Name";
+"enter_name" = "Enter name";
+"location" = "Location";
+"select_location" = "Select location";
+"groups" = "Groups";
+"add_groups_to_enterprise" = "Add groups to enterprise";
+"status" = "Status";
+
+"_s_Home" = "'s Home";
+"manage_enterprise_subtitle" = "Lorem Ipsum is simply typesetting industry";
+"enterprise_detail_menu" = "Enterprise Detail";
+"invite_users_menu" = "Invite Users";
+"user_privileges_menu" = "User Privileges";
+"received_invitations_menu" = "Received Invitations";
+"firmware_upgrade_menu" = "Firmware Upgrade";
+"enterprise_detail_subtitle" = "Lorem Ipsum is simply typesetting industry";
+
+"enterprise_users_title" = "Enterprise Users";
+"enterprise_users_subtitle" = "total users in this enterprise";
+"manage_privileges" = "Manage Privileges";
+"assign_privileges" = "Assign Privileges";
+"user" = "User";
+"change_user_role_menu" = "change user role";
+"manage_privileges_menu" = "manage privileges";
+"disable_user_menu" = "disable user";
+"enable_user_menu" = "enable user";
+"delete_from_enterprise_menu" = "delete from enterprise";
+"quick_actions" = "Quick Actions";
+"enterprise_menu_subtitle" = "Lorem Ipsum is simply typesetting industry";
+"are_you_sure_want_to_delete_this_user" = "Are you sure want to delete this user?";
+"are_you_sure_want_to_remove_profile" = "Are you sure you want to remove profile photo?";
+"are_you_sure_want_to_delete_this_device" = "Are you sure want to delete this device?";
+"are_you_sure_want_to_delete_this_gateway" = "Are you sure want to delete this gateway?";
+"email_address" = "Email Address";
+"mobile" = "Mobile";
+"user_detail_section" = "User Detail";
+"privileges_section" = "Privileges";
+
+"received_invitations_title" = "Received Invitations";
+"received_invitations_subtitle" = "Total invitations you've received";
+"today" = "Today";
+"yesterday" = "Yesterday";
+
+"invite_users_title" = "Invite Users";
+"invite_users_subtitle" = "Lorem Ipsum is simply typesetting industry";
+"email_or_mobile_title" = "Email or Mobile";
+"enter_email_or_mobile" = "Enter email or mobile";
+"role" = "Role";
+"select_role" = "Select Role";
+"select_role_menu_title" = "Here you can select the role for this user";
+
+"remove_doo_user_invites_title" = "Selected Users";
+"remove_doo_user_invites_subtitle" = "Lorem Ipsum is simply typesetting industry";
+"change_enterprise_user_role_subtitle" = "Lorem Ipsum is simply typesetting industry";
+
+"select_users" = "Select Users";
+"select_users_for_assign_privileges_subtitle" = "Assign privileges to the users of your enterprise";
+"device_sufix" = "device";
+"devices_sufix" = "devices";
+"gateway_sufix" = "gateway";
+"gateways_sufix" = "gateways";
+"device_connected_sufix" = "device connected";
+"devices_connected_sufix" = "devices connected";
+"add_device_title" = "Add device";
+"edit_device_title" = "Edit device";
+"add_device_subtitle" = "Lorem Ipsum is simply typesetting industry";
+"serial_number" = "Serial Number";
+"enter_serial_number" = "Enter serial number";
+"enter_type" = "Enter type";
+"gateway_list_title" = "Gateways";
+"gateway_list_subtitle" = "Lorem Ipsum is simply typesetting industry";
+"gateway_list_header" = "The colored dot represents the gateway status.";
+"device_list_header" = "The colored dot represents the device status.";
+"device_list_title" = "Devices";
+"device_types_title" = "Device Types";
+"device_list_subtitle" = "To add the device scan it's QR code";
+"off" = "OFF";
+"on" = "ON";
+"tap_to_set_name" = "Tap to set name";
+
+"first_name" = "First Name";
+"enter_first_name" = "Enter first name";
+"last_name" = "Last Name";
+"enter_last_name" = "Enter last name";
+"last_name" = "Last Name";
+"enter_last_name" = "Enter last name";
+"enter_email_address" = "Enter email address";
+"country" = "Country";
+"select_country" = "Select country";
+"enter_mobile" = "Enter Mobile";
+
+"edit_profile_title" = "Edit Profile";
+"edit_profile_subtitle" = "Lorem Ipsum is simply typesetting industry";
+
+"upload_a_photo" = "Upload a photo";
+"upload_a_photo_subtitle" = "Lorem Ipsum is simply typesetting industry";
+"choose_from_gallery" = "choose from gallery";
+"take_a_photo" = "take a photo";
+"change_default_avatar" = "change default avatar";
+"remove_profile" = "remove profile photo";
+
+"select_avatar_title" = "Select Profile Avatar";
+"select_avatar_subtitle" = "Lorem Ipsum is simply typesetting industry";
+"serial_number_placeholder" = "Serial number";
+"scan_title" = "Scan the QR code on the device.";
+"add_series_number_title" = "Unable to scan the QR code. No problem, please add the 16 digit series number mentioned below the QR code";
+"device_detail" = "Device Detail";
+"appliances" = "Appliances";
+"appliance" = "Appliance";
+"schedulers" = "Schedulers";
+"access_history" = "Access History";
+"binding_list" = "Binding List";
+"groups" = "Groups";
+"edit_application" = "Edit Appliance";
+"gateway" = "Gateway";
+"select_gateway" = "Select gateway";
+"installation_date" = "Installation Date";
+"select_installation_date" = "Select installation date";
+
+"edit_device" = "edit device";
+"delete_device" = "delete device";
+"edit_gateway" = "edit gateway";
+"delete_gateway" = "delete gateway";
+
+"edit_appliance" = "edit appliance";
+"enable_appliance" = "enable appliance";
+"disable_appliance" = "disable appliance";
+
+"User" = "User";
+
+
+"profile" = "Profile";
+"change_password" = "Change Password";
+"enable_pin" = "Enable PIN";
+"notification" = "Notifications";
+"firmware_update" = "Firmware Update";
+"app_update" = "App Update";
+"logout" = "Logout";
+"are_you_sure_want_to_logout_from_doo" = "Are you sure want to logout from DOO?";
+"notNow" = "Not now";
+"edit_group" = "edit group";
+"delete_group" = "delete group";
+"are_you_sure_want_to_delete_this_group" = "Are you sure want to delete this group?";
+"group_name_is_required" = "Group name is required";
+"add_Group" = "Add Group";
+"group_Name" = "Group Name";
+"enter_group_name" = "Enter group name";
+"suggestions_your_group_name" = "Suggestions for your group name";
+"total" = "Total";
+"active_devices" = "active devices";
+"set_Intensity" = "Set Intensity";
+"power" = "Power";
+"add_to_group" = "Add to group";
+"select_devices" = "Select Devices";
+"groupEnable" = "enable group";
+"groupDisable" = "disable group";
+
+"binding_Rule" = "Binding Rule";
+"schedule" = "Schedule";
+"scenes" = "Scenes";
+"scene" = "Scene";
+
+"enable_binding_Rule" = "enable binding rule";
+"disable_binding_Rule" = "disable binding rule";
+"edit_binding_Rule" = "edit binding rule";
+"delete_binding_Rule" = "delete binding rule";
+
+"enable_schedule" = "enable schedule";
+"disable_schedule" = "disable schedule";
+"edit_schedule" = "edit schedule";
+"delete_schedule" = "delete schedule";
+
+"enable_scene" = "enable scene";
+"disable_scene" = "disable scene";
+"edit_scene" = "edit scene";
+"delete_scene" = "delete scene";
+
+"are_you_sure_want_to_delete_this_scene" = "Are you sure want to delete this scene?";
+"are_you_sure_want_to_delete_this_schedule" = "Are you sure want to delete this schedule?";
+"are_you_sure_want_to_delete_this_binding_rule" = "Are you sure want to delete this binding rule?";
+"action" = "Action";
+"target_appliance" = "Target Appliance";
+
+"scene_name" = "Scene Name";
+"Schedule_name" = "Schedule Name";
+"schedule_type" = "Schedule Type";
+"schedule_date" = "Schedule Date";
+"schedule_time" = "Schedule Time";
+
+"enter_scene_name" = "Enter scene name";
+"enter_schedule_name" = "Enter schedule name";
+"select_schedule_type" = "Select schedule type";
+"select_schedule_date" = "Select schedule date";
+"select_schedule_time" = "Select schedule time";
+
+
+"trigger_appliance" = "Trigger Appliance";
+"trigger_action" = "Trigger Action";
+"condition" = "Condition";
+"rule_execution_time" = "Rule Execution Time";
+"binding_rule_name" = "Binding rule name";
+
+"target_access_title"= "Target Access";
+"target_action_title" = "Target Action";
+"add_binding_rule" = "Add Binding Rule";
+"edit_binding_rule" = "Edit Binding Rule";
+"condition" = "Condition";
+"40 C" = "40 C";
+"add_scheduler" = "Add Scheduler";
+"edit_scheduler" = "Edit Scheduler";
+
+"add_scene" = "Add Scene";
+"edit_scene" = "Edit Scene";
+"scene_name" = "Scene Name";
+
+"Here_you_can_select_type_comparison" = "Here you can select the type of comparison";
+"comparison" = "Comparison";
+
+"start_Time" = "Start Time";
+"end_Time" = "End Time";
+
+"custom" = "Custom";
+"once" = "Once";
+"daily" = "Daily";
+"speed_level" = "Speed Level";
+
+
+"very_slow" = "Very Slow";
+"slow" = "Slow";
+"medium" = "Medium";
+"high" = "High";
+"very_high" = "Very High";
+"select_scene" = "Select Scene";
+"select_Icon" = "Select Icon";
+
+"target_appliance" = "Target Appliance";
+"target_access" = "Target Access";
+"target_action" = "Target Action";
+"delete_target_appliance" = "delete target Appliance";
+"edit_target_appliance" = "Edit Target Appliance";
+"addTarget_appliance" = "Add Target Appliance";
+"speed" = "Speed";
+"color_picker" = "Color Picker";
+"na" = "N/A";
+"select_target_action" = "Select Target Action";
+"select_target_access" = "Select Target Access";
+"select_appliance" = "Select appliance";
+"target_appliances" = "Target Appliances";
+"auth_required_try_login_agian" = "Authentication failed";
+
+"groups_menu" = "Groups";
+"devices_menu" = "Devices";
+"schedules_menu" = "Schedules";
+"user_and_privileges_menu" = "User Privileges";
+"appliance_connected_sufix" = "appliance connected";
+"appliances_connected_sufix" = "appliances connected";
+"internet_failure" = "Network unavailable, Please check your internet connection!";
+"slow_or_internet_failure" = "Network Slow or Unavailable";

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SmartHomeSectionTVCell" rowHeight="126" id="Qhv-Tz-pfg" userLabel="SmartHomeSectionTVCell" customClass="SmartHomeSectionTVCell" customModule="Doo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="126"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Qhv-Tz-pfg" id="vtp-pB-GdX">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="126"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oDz-Fa-rvN">
+                        <rect key="frame" x="22" y="10" width="41.5" height="106"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="CuF-8r-sxA">
+                        <rect key="frame" x="314.5" y="42" width="89.5" height="42"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1oV-We-7Q3">
+                                <rect key="frame" x="0.0" y="0.0" width="42" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="1oV-We-7Q3" secondAttribute="height" multiplier="1:1" id="VJg-ij-8Ap"/>
+                                </constraints>
+                                <state key="normal" image="imgAddBlue"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="51n-RS-fXc">
+                                <rect key="frame" x="52" y="0.0" width="37.5" height="42"/>
+                                <inset key="contentEdgeInsets" minX="10" minY="10" maxX="-30" maxY="10"/>
+                                <state key="normal" title="Button" image="imgMoreDots"/>
+                            </button>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="oDz-Fa-rvN" firstAttribute="leading" secondItem="vtp-pB-GdX" secondAttribute="leading" constant="22" id="6zJ-PI-GU2"/>
+                    <constraint firstItem="oDz-Fa-rvN" firstAttribute="top" secondItem="vtp-pB-GdX" secondAttribute="top" constant="10" id="H3l-q2-Tyy"/>
+                    <constraint firstAttribute="trailing" secondItem="CuF-8r-sxA" secondAttribute="trailing" constant="10" id="Qje-Mg-8KO"/>
+                    <constraint firstItem="CuF-8r-sxA" firstAttribute="centerY" secondItem="vtp-pB-GdX" secondAttribute="centerY" id="iWn-hm-29q"/>
+                    <constraint firstAttribute="bottom" secondItem="oDz-Fa-rvN" secondAttribute="bottom" constant="10" id="lw1-KI-ZDT"/>
+                    <constraint firstItem="CuF-8r-sxA" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="oDz-Fa-rvN" secondAttribute="trailing" constant="8" id="ohm-mZ-5iq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="buttonDots" destination="51n-RS-fXc" id="TNw-tp-nLe"/>
+                <outlet property="buttonPlus" destination="1oV-We-7Q3" id="0bZ-6t-t8j"/>
+                <outlet property="labelSectionName" destination="oDz-Fa-rvN" id="xex-fk-APO"/>
+            </connections>
+            <point key="canvasLocation" x="-472.46376811594206" y="20.089285714285712"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="imgAddBlue" width="14.5" height="14.5"/>
+        <image name="imgMoreDots" width="3.5" height="15.5"/>
+    </resources>
+</document>

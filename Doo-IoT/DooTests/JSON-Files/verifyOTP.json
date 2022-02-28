@@ -1,0 +1,8 @@
+{
+  "payload" : {
+    "timeout" : 100,
+    "verificationToken" : "eyJhbGciOiJIUzUxMiJ9.eyJzY29wZSI6InZlcmlmeS1lbWFpbCIsInN1YiI6ImtpcmFuMDVAbWFpbHNhYy5jb20iLCJpYXQiOjE1ODczODc1MTIsImV4cCI6MTU4NzM5MzUxMn0.cs3SAQFv7fOYCyZEDuGjbq_sxR92l2d5Oe15fSyMUznymOxGXPbtXCDCoLsauhmjXJgXwW_ns8XAP34g2PtkAA",
+    "email" : "kiran05@mailsac.com"
+  },
+  "status" : 200
+}

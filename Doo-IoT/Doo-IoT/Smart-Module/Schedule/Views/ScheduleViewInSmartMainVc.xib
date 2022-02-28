@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ScheduleViewInSmartMainVc" customModule="Doo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OPY-Vc-QmU" customClass="DooNoDataView_1" customModule="Doo" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7DJ-iP-kUI" customClass="SomethingWentWrongAlertView" customModule="Doo" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                            <subviews>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4HN-Hz-wve" customClass="SayNoForDataTableView" customModule="Doo" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                </tableView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="4HN-Hz-wve" secondAttribute="bottom" id="YUd-Zj-U9B"/>
+                                <constraint firstItem="4HN-Hz-wve" firstAttribute="leading" secondItem="7DJ-iP-kUI" secondAttribute="leading" id="Yra-Rj-EsZ"/>
+                                <constraint firstItem="4HN-Hz-wve" firstAttribute="top" secondItem="7DJ-iP-kUI" secondAttribute="top" id="aN1-Zm-DCP"/>
+                                <constraint firstAttribute="trailing" secondItem="4HN-Hz-wve" secondAttribute="trailing" id="eZF-f5-CXI"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="7DJ-iP-kUI" firstAttribute="leading" secondItem="OPY-Vc-QmU" secondAttribute="leading" id="OCN-2H-sTc"/>
+                        <constraint firstItem="7DJ-iP-kUI" firstAttribute="top" secondItem="OPY-Vc-QmU" secondAttribute="top" id="iSd-hN-GVh"/>
+                        <constraint firstAttribute="trailing" secondItem="7DJ-iP-kUI" secondAttribute="trailing" id="nPT-5J-fdc"/>
+                        <constraint firstAttribute="bottom" secondItem="7DJ-iP-kUI" secondAttribute="bottom" id="p4Z-bJ-ooq"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="OPY-Vc-QmU" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="AJ2-ZJ-8L3"/>
+                <constraint firstItem="OPY-Vc-QmU" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="cOd-jH-ILs"/>
+                <constraint firstAttribute="trailing" secondItem="OPY-Vc-QmU" secondAttribute="trailing" id="iTl-2j-Fhz"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="OPY-Vc-QmU" secondAttribute="bottom" id="jj6-vt-oWD"/>
+            </constraints>
+            <connections>
+                <outlet property="mainView" destination="7DJ-iP-kUI" id="tkY-Jf-VhB"/>
+                <outlet property="tableViewSchedulesList" destination="4HN-Hz-wve" id="CoL-yi-yqK"/>
+            </connections>
+            <point key="canvasLocation" x="24.637681159420293" y="84.375"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

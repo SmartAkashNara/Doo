@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DooDeviceInfoCell" id="KGk-i7-Jjw" customClass="DooDeviceInfoCell" customModule="Doo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="71"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="71"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="7w9-GS-qFm">
+                        <rect key="frame" x="20" y="15" width="40" height="48.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gatewaydeviceicon" translatesAutoresizingMaskIntoConstraints="NO" id="03b-QD-mYv">
+                                <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="7Mk-J4-HBf"/>
+                                    <constraint firstAttribute="width" secondItem="03b-QD-mYv" secondAttribute="height" multiplier="1:1" id="a4U-SZ-nX4"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5aV-gJ-LV8">
+                                <rect key="frame" x="0.0" y="40" width="8.5" height="8.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <state key="normal" image="greenDot"/>
+                            </button>
+                        </subviews>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="2cf-hY-HuE">
+                        <rect key="frame" x="73" y="17" width="32.5" height="35"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RBk-zJ-qj1">
+                                <rect key="frame" x="0.0" y="0.0" width="32.5" height="17"/>
+                                <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cKb-4I-oFS">
+                                <rect key="frame" x="0.0" y="21" width="32.5" height="14"/>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rightArrowLightGray" translatesAutoresizingMaskIntoConstraints="NO" id="yrC-uZ-xFW">
+                        <rect key="frame" x="293" y="29" width="7" height="11.5"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7gc-WP-Iux" userLabel="Separator">
+                        <rect key="frame" x="0.0" y="70" width="320" height="1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="K7F-YW-wLV"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7w9-GS-qFm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="3jC-Va-Kzj"/>
+                    <constraint firstAttribute="trailing" secondItem="yrC-uZ-xFW" secondAttribute="trailing" constant="20" id="JEX-KQ-Goz"/>
+                    <constraint firstItem="7w9-GS-qFm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="PZb-Yu-OOw"/>
+                    <constraint firstItem="2cf-hY-HuE" firstAttribute="leading" secondItem="7w9-GS-qFm" secondAttribute="trailing" constant="13" id="TJ0-NE-NEH"/>
+                    <constraint firstAttribute="bottom" secondItem="7gc-WP-Iux" secondAttribute="bottom" id="ckK-Ke-TuM"/>
+                    <constraint firstItem="7gc-WP-Iux" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="nPd-7Q-3A5"/>
+                    <constraint firstItem="yrC-uZ-xFW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="29" id="tCC-WC-eVI"/>
+                    <constraint firstItem="7gc-WP-Iux" firstAttribute="top" secondItem="2cf-hY-HuE" secondAttribute="bottom" constant="18" id="vHn-gt-Qof"/>
+                    <constraint firstItem="2cf-hY-HuE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="17" id="vnA-9q-FE0"/>
+                    <constraint firstAttribute="trailing" secondItem="7gc-WP-Iux" secondAttribute="trailing" id="vot-74-HcL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="buttonDot" destination="5aV-gJ-LV8" id="QDi-lI-tgp"/>
+                <outlet property="imageViewDevice" destination="03b-QD-mYv" id="w0Z-8D-60Z"/>
+                <outlet property="imageViewRightArrow" destination="yrC-uZ-xFW" id="IAW-rV-hva"/>
+                <outlet property="labelDetail" destination="cKb-4I-oFS" id="kQX-7O-XcO"/>
+                <outlet property="labelName" destination="RBk-zJ-qj1" id="McX-bR-qEC"/>
+                <outlet property="viewSeparator" destination="7gc-WP-Iux" id="t1f-Ob-y6H"/>
+            </connections>
+            <point key="canvasLocation" x="140.57971014492756" y="109.82142857142857"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="gatewaydeviceicon" width="17" height="15.5"/>
+        <image name="greenDot" width="8.5" height="8.5"/>
+        <image name="rightArrowLightGray" width="7" height="11.5"/>
+    </resources>
+</document>

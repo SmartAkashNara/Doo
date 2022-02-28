@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="82" id="KGk-i7-Jjw" customClass="SiriAppliancesTVCell" customModule="Doo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="82"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="82"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="Label asdfasdf dsaf adsfsda dsa fdasfdsa sadfdsaf" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ufl-Fs-oGh">
+                        <rect key="frame" x="23.5" y="15.5" width="273" height="50.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RH2-Zb-bAZ" userLabel="Separator">
+                        <rect key="frame" x="23.5" y="81.5" width="273" height="0.5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="UoM-oc-xS4"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="RH2-Zb-bAZ" secondAttribute="bottom" id="6mg-Ko-qsa"/>
+                    <constraint firstItem="RH2-Zb-bAZ" firstAttribute="top" secondItem="Ufl-Fs-oGh" secondAttribute="bottom" constant="15.699999999999999" id="E0S-5T-xAU"/>
+                    <constraint firstItem="RH2-Zb-bAZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="23.300000000000001" id="EoV-Lt-gb8"/>
+                    <constraint firstItem="Ufl-Fs-oGh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15.699999999999999" id="OfL-5r-QAa"/>
+                    <constraint firstItem="Ufl-Fs-oGh" firstAttribute="trailing" secondItem="RH2-Zb-bAZ" secondAttribute="trailing" id="RX0-RY-WkK"/>
+                    <constraint firstAttribute="trailing" secondItem="RH2-Zb-bAZ" secondAttribute="trailing" constant="23.300000000000001" id="YAJ-Jn-z5h"/>
+                    <constraint firstItem="Ufl-Fs-oGh" firstAttribute="leading" secondItem="RH2-Zb-bAZ" secondAttribute="leading" id="rTA-AK-Agt"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="labelTitle" destination="Ufl-Fs-oGh" id="KfY-a8-xEJ"/>
+                <outlet property="viewSeparator" destination="RH2-Zb-bAZ" id="11R-x6-2nb"/>
+            </connections>
+            <point key="canvasLocation" x="-178.2608695652174" y="8.7053571428571423"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

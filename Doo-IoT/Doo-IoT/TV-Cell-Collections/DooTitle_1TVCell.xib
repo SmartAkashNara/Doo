@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DooTitle_1TVCell" id="KGk-i7-Jjw" customClass="DooTitle_1TVCell" customModule="Doo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xNr-rw-m4G">
+                        <rect key="frame" x="20" y="16" width="300" height="19.5"/>
+                        <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JuY-eT-2ip" userLabel="Separator">
+                        <rect key="frame" x="20" y="49.5" width="300" height="0.5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="aiS-vl-VHz"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="JuY-eT-2ip" firstAttribute="top" secondItem="xNr-rw-m4G" secondAttribute="bottom" constant="14" id="8ct-sa-6Mc"/>
+                    <constraint firstAttribute="bottom" secondItem="JuY-eT-2ip" secondAttribute="bottom" id="ExZ-T1-gTF"/>
+                    <constraint firstItem="xNr-rw-m4G" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="Vq5-Yi-uWc"/>
+                    <constraint firstItem="JuY-eT-2ip" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Vuz-TN-RzK"/>
+                    <constraint firstAttribute="trailing" secondItem="JuY-eT-2ip" secondAttribute="trailing" id="cTi-2W-agg"/>
+                    <constraint firstAttribute="trailing" secondItem="xNr-rw-m4G" secondAttribute="trailing" id="e6K-am-tOB"/>
+                    <constraint firstItem="xNr-rw-m4G" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="isu-54-bL3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="constraintLeadingLabel" destination="isu-54-bL3" id="2vN-Kn-caL"/>
+                <outlet property="constraintLeadingSeparator" destination="Vuz-TN-RzK" id="fMv-WJ-y3k"/>
+                <outlet property="constraintTopLabel" destination="Vq5-Yi-uWc" id="hVg-uQ-9Mu"/>
+                <outlet property="constraintTrailingLabel" destination="e6K-am-tOB" id="fFf-Uy-Bqh"/>
+                <outlet property="constraintTrailingSeparator" destination="cTi-2W-agg" id="rVm-Yp-Edc"/>
+                <outlet property="labelTitle" destination="xNr-rw-m4G" id="rd3-Yq-AGJ"/>
+                <outlet property="viewSeparator" destination="JuY-eT-2ip" id="5Zy-07-mwN"/>
+            </connections>
+            <point key="canvasLocation" x="-75" y="36"/>
+        </tableViewCell>
+    </objects>
+</document>

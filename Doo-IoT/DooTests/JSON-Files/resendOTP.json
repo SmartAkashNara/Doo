@@ -1,0 +1,7 @@
+{
+  "status" : 200,
+  "payload" : {
+    "email" : "kiran05@mailsac.com",
+    "verificationToken" : "eyJhbGciOiJIUzUxMiJ9.eyJzY29wZSI6InZlcmlmeS1lbWFpbCIsInN1YiI6ImtpcmFuMDVAbWFpbHNhYy5jb20iLCJpYXQiOjE1ODczOTI2NzQsImV4cCI6MTU4NzM5ODY3NH0.R4Tvy-yiH-VF89nNXooVBbgZsfBfg5oRGImnssoACa4CUcpGHiK_BYCmfxAmKgJmWNgkILuiZHihyLWJ1b3bWA"
+  }
+}

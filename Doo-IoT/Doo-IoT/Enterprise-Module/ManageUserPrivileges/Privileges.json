@@ -1,0 +1,621 @@
+{
+  "payload" : [
+    {
+      "image" : "https:\/\/s3.ap-south-1.amazonaws.com\/doo-assets\/dev\/group\/background_7.png",
+      "enable" : true,
+      "name" : "smart",
+      "id" : 363,
+      "device" : [
+        {
+          "deviceId" : 88,
+          "appliance" : [
+            {
+              "applianceTypeId" : 4,
+              "onOffStatus" : true,
+              "name" : "Appliance_1",
+              "selected" : false,
+              "applianceTypeName" : "aaa",
+              "applianceId" : 209,
+              "operations" : [
+
+              ],
+              "applianceTypeImage" : "https:\/\/s3.ap-south-1.amazonaws.com\/doo-assets\/dev\/appliance\/b2bba7d7-cada-4031-ade1-5d0f91d25f1b.png",
+              "groupApplianceId" : 360
+            }
+          ],
+          "name" : "iOS de vice"
+        },
+        {
+          "deviceId" : 89,
+          "appliance" : [
+            {
+              "onOffStatus" : true,
+              "selected" : false,
+              "applianceId" : 210,
+              "groupApplianceId" : 361,
+              "operations" : [
+
+              ],
+              "name" : "Appliance_1"
+            },
+            {
+              "onOffStatus" : false,
+              "selected" : false,
+              "applianceId" : 211,
+              "groupApplianceId" : 362,
+              "operations" : [
+
+              ],
+              "name" : "Appliance_2"
+            },
+            {
+              "onOffStatus" : true,
+              "selected" : false,
+              "applianceId" : 212,
+              "groupApplianceId" : 363,
+              "operations" : [
+
+              ],
+              "name" : "Appliance_3"
+            }
+          ],
+          "name" : "device new five new"
+        }
+      ]
+    },
+    {
+      "image" : "https:\/\/s3.ap-south-1.amazonaws.com\/doo-assets\/dev\/group\/background_2.png",
+      "enable" : true,
+      "name" : "Smart11",
+      "id" : 364,
+      "device" : [
+        {
+          "deviceId" : 88,
+          "appliance" : [
+            {
+              "applianceTypeImage" : "https:\/\/s3.ap-south-1.amazonaws.com\/doo-assets\/dev\/appliance\/b2bba7d7-cada-4031-ade1-5d0f91d25f1b.png",
+              "operations" : [
+
+              ],
+              "applianceTypeId" : 4,
+              "selected" : false,
+              "applianceTypeName" : "aaa",
+              "name" : "Appliance_1",
+              "applianceId" : 209,
+              "onOffStatus" : true,
+              "groupApplianceId" : 364
+            }
+          ],
+          "name" : "iOS de vice"
+        },
+        {
+          "deviceId" : 89,
+          "appliance" : [
+            {
+              "name" : "Appliance_1",
+              "operations" : [
+
+              ],
+              "onOffStatus" : true,
+              "applianceId" : 210,
+              "selected" : false,
+              "groupApplianceId" : 365
+            },
+            {
+              "name" : "Appliance_2",
+              "operations" : [
+
+              ],
+              "onOffStatus" : false,
+              "applianceId" : 211,
+              "selected" : false,
+              "groupApplianceId" : 366
+            },
+            {
+              "name" : "Appliance_3",
+              "operations" : [
+
+              ],
+              "onOffStatus" : true,
+              "applianceId" : 212,
+              "selected" : false,
+              "groupApplianceId" : 367
+            },
+            {
+              "name" : "Appliance_4",
+              "operations" : [
+
+              ],
+              "onOffStatus" : false,
+              "applianceId" : 213,
+              "selected" : false,
+              "groupApplianceId" : 368
+            },
+            {
+              "name" : "Appliance_5",
+              "operations" : [
+
+              ],
+              "onOffStatus" : false,
+              "applianceId" : 214,
+              "selected" : false,
+              "groupApplianceId" : 369
+            }
+          ],
+          "name" : "device new five new"
+        }
+      ]
+    },
+    {
+      "image" : "https:\/\/s3.ap-south-1.amazonaws.com\/doo-assets\/dev\/group\/background_9.png",
+      "enable" : false,
+      "name" : "Sense",
+      "id" : 392,
+      "device" : [
+        {
+          "deviceId" : 89,
+          "appliance" : [
+            {
+              "name" : "Appliance_4",
+              "groupApplianceId" : 372,
+              "operations" : [
+
+              ],
+              "applianceId" : 213,
+              "selected" : false,
+              "onOffStatus" : false
+            },
+            {
+              "name" : "Appliance_5",
+              "groupApplianceId" : 373,
+              "operations" : [
+
+              ],
+              "applianceId" : 214,
+              "selected" : false,
+              "onOffStatus" : false
+            }
+          ],
+          "name" : "device new five new"
+        }
+      ]
+    },
+    {
+      "image" : "https:\/\/s3.ap-south-1.amazonaws.com\/doo-assets\/dev\/group\/background_2.png",
+      "enable" : false,
+      "name" : "testt",
+      "id" : 393,
+      "device" : [
+        {
+          "deviceId" : 89,
+          "appliance" : [
+            {
+              "onOffStatus" : true,
+              "name" : "Appliance_1",
+              "applianceId" : 210,
+              "groupApplianceId" : 370,
+              "selected" : false,
+              "operations" : [
+
+              ]
+            },
+            {
+              "onOffStatus" : false,
+              "name" : "Appliance_2",
+              "applianceId" : 211,
+              "groupApplianceId" : 371,
+              "selected" : false,
+              "operations" : [
+
+              ]
+            },
+            {
+              "onOffStatus" : true,
+              "name" : "Appliance_3",
+              "applianceId" : 212,
+              "groupApplianceId" : 374,
+              "selected" : false,
+              "operations" : [
+
+              ]
+            }
+          ],
+          "name" : "device new five new"
+        }
+      ]
+    },
+    {
+      "enable" : false,
+      "name" : "Default",
+      "device" : [
+        {
+          "deviceId" : 5,
+          "appliance" : [
+            {
+              "selected" : false,
+              "applianceId" : 6,
+              "name" : "Appliance_1",
+              "onOffStatus" : false,
+              "operations" : [
+
+              ]
+            },
+            {
+              "selected" : false,
+              "applianceId" : 7,
+              "name" : "Appliance_2",
+              "onOffStatus" : true,
+              "operations" : [
+
+              ]
+            },
+            {
+              "selected" : false,
+              "applianceId" : 8,
+              "name" : "Appliance_3",
+              "onOffStatus" : false,
+              "operations" : [
+
+              ]
+            },
+            {
+              "selected" : false,
+              "applianceId" : 9,
+              "name" : "Appliance_4",
+              "onOffStatus" : false,
+              "operations" : [
+
+              ]
+            },
+            {
+              "selected" : false,
+              "applianceId" : 10,
+              "name" : "Appliance_5",
+              "onOffStatus" : false,
+              "operations" : [
+
+              ]
+            }
+          ],
+          "name" : "Temp Deville gg"
+        },
+        {
+          "deviceId" : 6,
+          "appliance" : [
+            {
+              "onOffStatus" : true,
+              "operations" : [
+                1,
+                2,
+                3,
+                4
+              ],
+              "applianceId" : 11,
+              "selected" : false,
+              "applianceTypeName" : "Product 1111",
+              "name" : "Appliance 11",
+              "operationData" : "{\"speed\":\"1\"}",
+              "applianceTypeId" : 29
+            },
+            {
+              "onOffStatus" : false,
+              "operations" : [
+
+              ],
+              "applianceId" : 12,
+              "selected" : false,
+              "applianceTypeName" : "Switch",
+              "name" : "Appliance_2",
+              "applianceTypeImage" : "https:\/\/s3.ap-south-1.amazonaws.com\/doo-assets\/dev\/appliance\/bac12720-9cc4-4f5a-9c54-787b4f03dc0d.jpg",
+              "applianceTypeId" : 1
+            },
+            {
+              "onOffStatus" : true,
+              "applianceId" : 13,
+              "operations" : [
+
+              ],
+              "selected" : false,
+              "name" : "Appliance_3"
+            },
+            {
+              "applianceId" : 14,
+              "onOffStatus" : true,
+              "selected" : false,
+              "operations" : [
+
+              ],
+              "name" : "Appliance_4"
+            },
+            {
+              "applianceId" : 15,
+              "onOffStatus" : false,
+              "selected" : false,
+              "operations" : [
+
+              ],
+              "name" : "Appliance_5"
+            }
+          ],
+          "name" : "KrunalDelete"
+        },
+        {
+          "appliance" : [
+            {
+              "operations" : [
+
+              ],
+              "name" : "Appliance_01",
+              "selected" : false,
+              "onOffStatus" : true,
+              "applianceTypeId" : 1,
+              "applianceTypeImage" : "https:\/\/s3.ap-south-1.amazonaws.com\/doo-assets\/dev\/appliance\/bac12720-9cc4-4f5a-9c54-787b4f03dc0d.jpg",
+              "applianceId" : 16,
+              "applianceTypeName" : "Switch"
+            },
+            {
+              "applianceId" : 17,
+              "onOffStatus" : false,
+              "selected" : false,
+              "operations" : [
+
+              ],
+              "name" : "Appliance_11"
+            },
+            {
+              "applianceId" : 18,
+              "onOffStatus" : true,
+              "selected" : false,
+              "operations" : [
+
+              ],
+              "name" : "Appliance_21"
+            },
+            {
+              "applianceId" : 19,
+              "onOffStatus" : false,
+              "selected" : false,
+              "operations" : [
+
+              ],
+              "name" : "Appliance_31"
+            },
+            {
+              "applianceId" : 20,
+              "onOffStatus" : false,
+              "selected" : false,
+              "operations" : [
+
+              ],
+              "name" : "Appliance_41"
+            }
+          ],
+          "deviceId" : 7,
+          "name" : "Temp Devicel"
+        },
+        {
+          "appliance" : [
+            {
+              "name" : "Appliance_1",
+              "operations" : [
+
+              ],
+              "onOffStatus" : false,
+              "applianceId" : 21,
+              "selected" : false
+            },
+            {
+              "name" : "Appliance_2",
+              "operations" : [
+
+              ],
+              "onOffStatus" : false,
+              "applianceId" : 22,
+              "selected" : false
+            },
+            {
+              "name" : "Appliance_3",
+              "operations" : [
+
+              ],
+              "onOffStatus" : false,
+              "applianceId" : 23,
+              "selected" : false
+            },
+            {
+              "name" : "Appliance_4",
+              "operations" : [
+
+              ],
+              "onOffStatus" : false,
+              "applianceId" : 24,
+              "selected" : false
+            },
+            {
+              "name" : "Appliance_5",
+              "operations" : [
+
+              ],
+              "onOffStatus" : false,
+              "applianceId" : 25,
+              "selected" : false
+            }
+          ],
+          "deviceId" : 8,
+          "name" : "Temp Device3"
+        },
+        {
+          "appliance" : [
+            {
+              "onOffStatus" : false,
+              "operations" : [
+
+              ],
+              "applianceId" : 26,
+              "name" : "Appliance_1",
+              "selected" : false
+            },
+            {
+              "onOffStatus" : false,
+              "operations" : [
+
+              ],
+              "applianceId" : 27,
+              "name" : "Appliance_2",
+              "selected" : false
+            },
+            {
+              "onOffStatus" : false,
+              "operations" : [
+
+              ],
+              "applianceId" : 28,
+              "name" : "Appliance_3",
+              "selected" : false
+            },
+            {
+              "onOffStatus" : true,
+              "operations" : [
+
+              ],
+              "applianceId" : 29,
+              "name" : "Appliance_4",
+              "selected" : false
+            },
+            {
+              "onOffStatus" : true,
+              "operations" : [
+
+              ],
+              "applianceId" : 30,
+              "name" : "Appliance_5",
+              "selected" : false
+            }
+          ],
+          "deviceId" : 9,
+          "name" : "Temp Device4"
+        },
+        {
+          "appliance" : [
+            {
+              "applianceId" : 37,
+              "name" : "Appliance_1",
+              "selected" : false,
+              "operations" : [
+
+              ],
+              "onOffStatus" : false
+            },
+            {
+              "applianceId" : 38,
+              "name" : "Appliance_2",
+              "selected" : false,
+              "operations" : [
+
+              ],
+              "onOffStatus" : true
+            },
+            {
+              "applianceId" : 39,
+              "name" : "Appliance_3",
+              "selected" : false,
+              "operations" : [
+
+              ],
+              "onOffStatus" : true
+            },
+            {
+              "applianceId" : 40,
+              "name" : "Appliance_4",
+              "selected" : false,
+              "operations" : [
+
+              ],
+              "onOffStatus" : true
+            },
+            {
+              "applianceId" : 41,
+              "name" : "Appliance_5",
+              "selected" : false,
+              "operations" : [
+
+              ],
+              "onOffStatus" : false
+            }
+          ],
+          "deviceId" : 27,
+          "name" : "Temp Device"
+        },
+        {
+          "appliance" : [
+            {
+              "operations" : [
+                5
+              ],
+              "selected" : false,
+              "applianceId" : 31,
+              "applianceTypeName" : "Smart_RGB_IOS",
+              "name" : "Appliance_1",
+              "applianceTypeId" : 51,
+              "onOffStatus" : true
+            },
+            {
+              "operations" : [
+                4
+              ],
+              "operationData" : "{\"speed\":\"5\"}",
+              "selected" : false,
+              "applianceId" : 32,
+              "applianceTypeName" : "Smart_Fan_IOS",
+              "name" : "Appliance_2_fan-ios",
+              "applianceTypeId" : 50,
+              "onOffStatus" : true
+            },
+            {
+              "name" : "Appliance_3",
+              "operations" : [
+
+              ],
+              "selected" : false,
+              "applianceId" : 33,
+              "onOffStatus" : false
+            },
+            {
+              "operations" : [
+                5
+              ],
+              "selected" : false,
+              "applianceId" : 34,
+              "applianceTypeName" : "Smart_RGB_IOS",
+              "name" : "abc",
+              "applianceTypeId" : 51,
+              "onOffStatus" : false
+            },
+            {
+              "name" : "Appliance_5",
+              "operations" : [
+
+              ],
+              "selected" : false,
+              "applianceId" : 35,
+              "onOffStatus" : false
+            },
+            {
+              "name" : "Appliance_6",
+              "operations" : [
+
+              ],
+              "selected" : false,
+              "applianceId" : 36,
+              "onOffStatus" : false
+            }
+          ],
+          "deviceId" : 11,
+          "name" : "Temp Device 22"
+        }
+      ],
+      "id" : 0
+    }
+  ],
+  "status" : 200
+}

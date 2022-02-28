@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BindingRuleViewInSmartMainVc" customModule="Doo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0AC-vK-3qP" customClass="DooNoDataView_1" customModule="Doo" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lKf-HE-lKC" customClass="SomethingWentWrongAlertView" customModule="Doo" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                            <subviews>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rY1-21-k5n" customClass="SayNoForDataTableView" customModule="Doo" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                </tableView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="rY1-21-k5n" secondAttribute="bottom" id="3Zl-Uo-SIE"/>
+                                <constraint firstItem="rY1-21-k5n" firstAttribute="top" secondItem="lKf-HE-lKC" secondAttribute="top" id="NIB-fR-QDA"/>
+                                <constraint firstItem="rY1-21-k5n" firstAttribute="leading" secondItem="lKf-HE-lKC" secondAttribute="leading" id="dGn-K9-dbB"/>
+                                <constraint firstAttribute="trailing" secondItem="rY1-21-k5n" secondAttribute="trailing" id="ijV-Ze-y1s"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="lKf-HE-lKC" secondAttribute="bottom" id="8xa-A9-jcb"/>
+                        <constraint firstAttribute="trailing" secondItem="lKf-HE-lKC" secondAttribute="trailing" id="I6b-oY-Lq4"/>
+                        <constraint firstItem="lKf-HE-lKC" firstAttribute="top" secondItem="0AC-vK-3qP" secondAttribute="top" id="UB8-R1-owp"/>
+                        <constraint firstItem="lKf-HE-lKC" firstAttribute="leading" secondItem="0AC-vK-3qP" secondAttribute="leading" id="c1j-vp-oRd"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="0AC-vK-3qP" secondAttribute="trailing" id="4n9-aj-GvX"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="0AC-vK-3qP" secondAttribute="bottom" id="Qtt-ZS-qmJ"/>
+                <constraint firstItem="0AC-vK-3qP" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="qBI-V7-Prd"/>
+                <constraint firstItem="0AC-vK-3qP" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="yiw-d5-BZr"/>
+            </constraints>
+            <connections>
+                <outlet property="dooNoDataView" destination="0AC-vK-3qP" id="pDu-T1-lEe"/>
+                <outlet property="mainView" destination="lKf-HE-lKC" id="D9u-bp-XYf"/>
+                <outlet property="tableViewBindingRulesList" destination="rY1-21-k5n" id="sHn-fe-79Y"/>
+            </connections>
+            <point key="canvasLocation" x="26" y="85"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
